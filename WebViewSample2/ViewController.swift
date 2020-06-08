@@ -24,7 +24,12 @@ class ViewController: UIViewController {
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        self.webView.load(URLRequest(url: URL(string: "http://192.168.0.224:3000/")!))
+        // webserverにアクセスする場合
+//        self.webView.load(URLRequest(url: URL(string: "http://192.168.XXX.XXX:3000/")!))
+        
+        // localファイルにアクセスする場合
+        let localurl = Bundle.main.url(forResource: "dist/index", withExtension: "html")!
+        webView.loadFileURL(localurl, allowingReadAccessTo: localurl)
     }
     
     @IBAction func onTouchUpInside(_ sender: Any) {

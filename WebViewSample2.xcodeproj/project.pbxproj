@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1DC61E248E7CE900F20845 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 8B1DC61D248E7CE900F20845 /* dist */; };
 		8B6C14A5247806E500A6E503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C14A4247806E500A6E503 /* AppDelegate.swift */; };
 		8B6C14A7247806E500A6E503 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C14A6247806E500A6E503 /* SceneDelegate.swift */; };
 		8B6C14A9247806E500A6E503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C14A8247806E500A6E503 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B1DC61D248E7CE900F20845 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = "../../nuxt-app-sample/nuxt-app-sample/dist"; sourceTree = "<group>"; };
 		8B6C14A1247806E500A6E503 /* WebViewSample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewSample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6C14A4247806E500A6E503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B6C14A6247806E500A6E503 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				8B6C14A8247806E500A6E503 /* ViewController.swift */,
 				8B6C14AA247806E500A6E503 /* Main.storyboard */,
 				8B6C14AD247806E700A6E503 /* Assets.xcassets */,
+				8B1DC61D248E7CE900F20845 /* dist */,
 				8B6C14AF247806E700A6E503 /* LaunchScreen.storyboard */,
 				8B6C14B2247806E700A6E503 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B1DC61E248E7CE900F20845 /* dist in Resources */,
 				8B6C14B1247806E700A6E503 /* LaunchScreen.storyboard in Resources */,
 				8B6C14AE247806E700A6E503 /* Assets.xcassets in Resources */,
 				8B6C14AC247806E500A6E503 /* Main.storyboard in Resources */,
